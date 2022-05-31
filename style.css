@@ -94,15 +94,6 @@ body {
     gap:20px;
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #e5e7ebd0;
-}
-
 .button1 {
     background-color: #3882f6;
     color: #f9faf8;
@@ -112,4 +103,40 @@ a {
     font-weight: 900;
     max-width: 100px;
     height: 30px;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 320px;
+    padding-right: 320px;
+    background-color: #e5e7eb;
+    gap: 50px;
+}
+
+.quote-text{
+    max-width: 700px;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100px;
+    
+}
+
+.author {
+    text-align: end;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7ebd0;
 }
