@@ -5,6 +5,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7ebd0;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -24,7 +33,7 @@ body {
     font-size: 18px;
 }
 
-.sign-up {
+.intro {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
@@ -39,7 +48,7 @@ body {
     transform: rotate(90deg);
 }
 
-.sign-up-content {
+.intro-content {
     display: flex;
     flex-direction: column;
     max-width: 400px;
@@ -101,8 +110,8 @@ body {
     border: none;
     border-radius: 8px;
     font-weight: 900;
-    max-width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
 }
 
 
@@ -132,11 +141,37 @@ body {
     font-size: 25px;
 }
 
-ul {
-    list-style-type: none;
+.sign-up{
+
 }
 
-a {
-    text-decoration: none;
-    color: #e5e7ebd0;
+.box {
+    background-color: #3882f6;
+    display: flex;
+    margin: 50px 200px;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 200px;
+    padding: 40px 0;
+}
+
+.button2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: 900;
+    width: 130px;
+    height: 40px;
+}
+
+.su-text1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.su-text2 {
+    color: white;
 }
