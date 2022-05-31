@@ -141,10 +141,6 @@ a {
     font-size: 25px;
 }
 
-.sign-up{
-
-}
-
 .box {
     background-color: #3882f6;
     display: flex;
@@ -174,4 +170,15 @@ a {
 
 .su-text2 {
     color: white;
+}
+
+.footer {
+    background-color:#1f2937;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.f-text {
+    color: white;
+    font-size: 20px;
 }
